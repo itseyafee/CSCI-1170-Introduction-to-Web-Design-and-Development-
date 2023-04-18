@@ -1,0 +1,310 @@
+/* 
+Styling the header: 
+ */
+ html{
+    margin-left:5%;
+    margin-right:5%;
+}
+#pg-banner {
+    background: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+  }
+
+#primary-nav{
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    font-size: large;
+    
+}
+#primary-nav a{
+    display: inline-block;
+    color: steelblue;
+    padding: 5px;
+}
+#primary-nav :hover{
+    background-color: white;
+    color: black;
+    
+}
+header#pg-banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+#hiring{
+    text-align: center;
+    background-color:lightblue;
+}
+
+/*
+STYLING FOR FOOTER PART
+*/
+#pg-footer{
+    background: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+    padding-top: 0px;
+    bottom:5px;
+    width: 100%;
+}
+
+
+#social-media{
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+    font-size: medium;
+}
+
+#social-media a{
+    display: inline-block;
+    color: steelblue;
+    padding: 5px;
+}
+#social-media :hover{
+    background-color: white;
+    color: black;
+}
+
+/* 
+Styling the main id: 
+ */
+    .featured-img1{
+        float: inline-start;
+        width: 600px;
+        height: 350px;
+        margin-right:2%;
+        padding-left: 2px; 
+        padding-bottom: 5px; 
+    }
+/* 
+Styling the Menu: 
+ */
+    .img1{
+        float: left;
+        width: 15%;
+        padding: 10px;
+        height: 15%;
+        margin-left: 5%;
+
+    }
+    
+    .img2{
+        float: left;
+        width: 15%;
+        padding: 10px;
+        height: 15%;
+        margin-left: 5%;
+    }
+    .img3{
+        float: left;
+        width: 15%;
+        padding: 10px;
+        height: 20%;
+        margin-left: 5%;
+    }
+    .img4{
+        float: left;
+        width: 15%;
+        padding: 10px;
+        height: 15%;
+        margin-left: 5%;
+    }
+
+    .menu1{
+        float: left;
+        width: 15%;
+        padding: 10px;
+        height: 15%;
+        margin-top: 2px;
+        margin-left: 5%;
+    }
+
+    .menu2{
+        float: left;
+        width: 15%;
+        padding: 10px;
+        margin-top: 2px;
+        margin-left: 5%;
+    }
+
+    .menu3{
+        float: left;
+        width: 15%;
+        padding: 10px;
+        height: 15%;
+        margin-top: 2px;
+        margin-left: 5%;
+    }
+
+    .menu4{
+        float: left;
+        width: 15%;
+        padding: 10px;
+        height: 15%;
+        margin-top: 2px;
+        margin-left: 5%;
+    }
+
+/* 
+Styling the Contact(WORKING HOURS): 
+*/
+    #working-hours{
+        float: right;
+        font-family: 'Times New Roman', Times, serif
+    }
+    #working-hours-list{
+        float: right;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+    }
+
+    #working-hours-list{
+        display: inline-block;
+        color: black;
+    }
+    #working-hours-list :hover{
+        color: steelblue;
+    }
+
+/* 
+Styling the Contact(LOCATION): 
+*/
+    
+    .Location{
+        width: 50%;
+        height: 30%;
+        float: left;
+    }
+
+    #Message-Us{
+        float: inline-start;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        margin-left: 9%;
+        clear: both;
+    }
+    
+    #join-team{
+        float: inline-start;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        margin-left: 9%;
+        clear:both;
+        
+    }
+/* 
+Styling the About Us): 
+*/
+    .featured-img{
+        float: inline-start;
+        width: 500px;
+        height: 350px;
+        margin-right:2%;
+        padding-left: 2px; 
+        padding-bottom: 5px; 
+    }
+
+/*
+Styling for the tablet view
+*/
+
+    @media screen and (max-width:960px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    section#image-link{
+        display: flex;
+        flex-direction: row;  
+    }
+    .img1,.img2,.img3,.img4{
+        width: 200px;
+        height: 100px;
+    }
+    section#menu-list{
+        display: flex;
+        flex-direction: row;
+    }
+    section#working-hours-list{
+        width: 30%;
+    }
+    .featured-img{
+        width:80%;
+    }
+    #pg-banner{
+        width: 100%;
+    }
+    #pg-footer{
+        width: 100%;
+    }   
+    nav#primary-nav{
+        display:flex;
+        flex-direction: column;   
+    }
+    nav#social-media{
+        display:flex;
+        flex-direction: column;   
+    }
+}
+
+/*
+Styling for mobile view
+*/
+    @media  screen and (max-width:640px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    section#image-link{
+        display: flex;
+        flex-direction: row; 
+    }
+    .img1,.img2,.img3,.img4{
+        width: 200px;
+        height: 100px;
+    }
+    section#menu-list{
+     display: flex;
+     flex-direction: row;
+    }
+    section#working-hours-list{
+        width: 30%;
+     }
+     .featured-img{
+        width:100%;
+    }
+    #pg-banner{
+        width: 100%;
+    }
+    #pg-footer{
+        width: 100%;
+    }
+    nav#primary-nav{
+        display:flex;
+        flex-direction: column;  
+    }
+    nav#social-media{
+        display:flex;
+        flex-direction: column;   
+    }
+}

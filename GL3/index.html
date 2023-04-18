@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register for this service!</title>
+
+	<!-- Link to the CSS reset file: normalize.css
+		Normalize.css used from an online source: normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css, Date accessed: 02 March 2022
+	 -->
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- Link to the main stylesheet for this web page -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+	<header id="pg-banner">
+		<h1>ChatterBox</h1>
+
+		<nav id="primary-nav">
+			<a href="index.html#about-info">About</a>
+			<a href="index.html#register">Register</a>
+			<a href="#">FAQ</a>
+			<a href="#">Chatter Away!</a>
+		</nav>
+	</header>
+
+	<main id="pg-main-content" class="main-content">
+		<input id="dark-mode" type="button" value="Enable Dark Mode">
+		<!-- Section containing the some basic information about this website. It allows the user to read and find out some information about what this website is about. -->
+		<section id="about-info">
+			<h2>What is ChatterBox?</h2>
+			<p id="paragraph-1">Glad you asked. This is a website which may remind you of a certain social media site that rhymes with litter, and is used to share your thoughts with your community. Simple, yes, we know. That's the intention &#128521;</p>
+			<p id="paragraph-2">Anyway, here's some dummy content from forcemipsum.com.</p>
+			<!-- Dummy content used from https://forcemipsum.com 
+				Author: Scotty G.
+				URL: https://forcemipsum.com/
+				Date accessed: 02 March 2022
+			-->
+			<p id="paragraph-3">Did you hear that? They've shut down the main reactor. We'll be destroyed for sure. This is madness! We're doomed! There'll be no escape for the Princess this time. What's that? Artoo! Artoo-Detoo, where are you? At last! Where have you been? They're heading in this direction.</p>
+			<p id="paragraph-4">You have taken your first step into a larger world. Yes. Our scout ships have reached Dantooine. They found the remains of a Rebel base, but they estimate that it has been deserted for some time. They are now conducting an extensive search of the surrounding systems.</p>
+		</section>
+
+		<!-- Section containing the registration form for this website. It allows the user to register for the service by providing some basic information about themselves. -->
+		<section id="register">
+			<h2>Register to use ChatterBox</h2>
+			<form action="" method="post" id="registration-form">
+				<div class="form-group">
+					<label id="register-1" for="firstname-input">First Name</label>
+					<input type="text" id="firstname-input" name="i-firstname" placeholder="Luke" required>
+				</div>
+				<div class="form-group">
+					<label id="register-2" for="lastname-input">Last Name</label>
+					<input type="text" id="lastname-input" name="i-lastname" placeholder="Skywalker" required>
+				</div>
+				<div class="form-group">
+					<label id="register-3" for="email-input">Email</label>
+					<input type="email" id="email-input" name="i-email" placeholder="luke@website.com" required>
+				</div>
+				<div class="form-group">
+					<label id="register-4" for="chatterhandle-input">Preferred Username/chatter handle (begins with @)</label>
+					<input type="text" id="chatterhandle-input" name="i-chatterhandle" placeholder="@LukeSkywalker" required>
+				</div>
+				<input id="input-button" type="button" value="Register">
+			</form>
+		</section>
+	</main>
+
+	<footer id="pg-footer">
+		<p>&copy; 2022. ChatterBox.</p>
+		<address id="contact-address">
+			123 Hacker Ave, Halifax, NS, Canada<br>
+			<a href="mailto:help@chatterbox.com">Reach out if you have any questions!</a>
+		</address>
+		<nav id="footer-nav">
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms of Use</a>
+			<a href="mailto:help@chatterbox.com">Contact Us</a>
+		</nav>
+	</footer>
+	<script src="./js/scripts.js"></script>
+</body>
+</html>

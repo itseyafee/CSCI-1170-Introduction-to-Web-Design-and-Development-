@@ -1,0 +1,129 @@
+/* Common styles for the page body */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 70vw;
+	margin: 0 auto;
+
+	/* Setup the body element as a Flex container */
+	display: flex;
+	flex-direction: column;
+}
+
+/* Page banner styles, including main heading */
+header#pg-banner {
+	background-color: steelblue;
+	padding: 1em;
+	/* setup the banner as a Flex container */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header#pg-banner > h1 {
+	color: white;
+}
+
+/* Primary navigation styling */
+nav#primary-nav {
+	width: 300px;
+	/* setup nav as a Flex container */
+	display: flex;
+	justify-content: space-between;
+}
+nav#primary-nav > a:link,
+nav#primary-nav > a:visited {
+	color: yellow;
+	text-decoration: none;
+	padding: 0.5em;
+}
+nav#primary-nav > a:hover,
+nav#primary-nav > a:active {
+	background-color: black;
+	color: white;
+}
+
+/* Main content styling */
+main#pg-main-content {
+	padding: 2em 1em;
+}
+
+/* Content section styling */
+section#about-info,
+section#register {
+	padding: 1em 0;
+}
+section h2 {
+	color: goldenrod;
+}
+
+/* Registration form styling */
+form#registration-form {
+	/* Setup the form as a Flex container */
+	display: flex;
+	flex-direction: column;
+}
+form#registration-form > div.form-group {
+	/* Setup the form group divs as a Flex container */
+	display: flex;
+	margin: 0.5em 0;
+}
+form input {
+	flex: 3;
+	height: 2em;
+}
+form label {
+	flex: 1;
+}
+form input[type="button"] {
+	padding: 0.5em 0;
+	margin: 1em 0;
+	background-color: lightgray;
+	border: 3px solid steelblue;
+	border-radius: 10px;
+}
+form input[type="button"]:hover {
+	background-color: lightskyblue;
+	border: 3px solid steelblue;
+}
+form input[type="button"]:active {
+	background-color: lightseagreen;
+	border: 3px solid steelblue;
+	color: white;
+}
+
+/* Page footer styling */
+footer#pg-footer {
+	margin: 2em 0 0 0;
+	padding: 1em 1em 2em 1em;
+	border-top: 3px solid gold;
+	display: flex;
+	align-items: center;
+	font-size: smaller;
+}
+footer#pg-footer > p {
+	flex: 1.5;
+}
+footer#pg-footer > address {
+	flex: 2;
+	font-style: normal;
+}
+footer#pg-footer > nav {
+	flex: 1.5;
+}
+
+/* Footer links styling */
+footer#pg-footer a:link,
+footer#pg-footer a:visited {
+	text-decoration: none;
+	color: steelblue;
+	border-bottom: 1px solid gold;
+}
+footer#pg-footer a:hover,
+footer#pg-footer a:active {
+	text-decoration: none;
+	color: darkgoldenrod;
+	border-bottom: 1px solid black;
+}
+nav#footer-nav {
+	display: flex;
+	justify-content: space-between;
+}

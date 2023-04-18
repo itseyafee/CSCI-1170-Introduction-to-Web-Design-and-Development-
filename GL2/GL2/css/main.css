@@ -1,0 +1,264 @@
+/* 
+ * Main CSS file for GL2 lab work
+ *
+ * Group member info:
+*    1. Nikita Wadnikop (B00904671, nk398893@dal.ca) 
+*    2. Ryan O'Toole (B00892363, ry404033@dal.ca)
+*    3. Eyafee Al Hossain (B00904384, eyafee.alhossain@dal.ca)
+*    4. Awsaf Hanif Ibrahim (B00898654, aw613718@dal.ca) 
+*    5. Dante Paul (B00887243, dn812263@dal.ca)
+
+ *
+ * Include a comment about sections of styling that each student has done in this file.
+ */
+
+/* General web page style - collaborative coding by students in the group */
+
+body {
+    padding-left: 175px;
+    padding-right: 175px;
+}
+/*
+We didn't change the main element.
+    main {
+
+    }
+*/
+
+/* Page header styles code block 1: 
+ * coded by - Nikita Wadnikop (B00904671, nk398893@dal.ca) 
+ */
+
+
+img#logo-header {
+    width: 170px;
+    float: left;
+    margin-top: -25px;
+}
+
+#header-title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+#primary-nav {
+float: right;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: -90px;
+font-size: 15px;
+}
+
+
+/* Featured info code block 2: 
+ * coded by - Ryan O'Toole (B00892363, ry404033@dal.ca)
+
+ */
+#featured-info {
+    border-top: 5px solid steelblue;
+    float:left;
+    padding:0px;
+    margin: 0%;
+    margin-top: 15px;
+}
+
+#featured-info-img {
+    float:right;
+    display: inline;
+    width: 20%;
+    height: 20%;
+    padding:5px;
+}
+
+#text-blocks {
+    padding:0px;
+    border: 0px;
+    width: 78%;
+}
+
+.featured-text-block {
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 16%;
+    margin-left: 3%;
+}
+
+/* Styling the image link section code block 3: 
+ * coded by - Eyafee AL Hossain (B00904384, eyafee.alhossain@dal.ca) 
+ */
+ #hint-text{
+    color: red;
+}
+ 
+.image-link{
+   
+   float: left;
+   width: 220px; 
+   display: inline;
+   padding: 5px;
+   margin-left: 30px;
+   margin-right: 30px;
+   }
+   
+   #link-1{
+   float:left;
+   width:25%;
+   }
+   
+   #link-2{
+   float:left;
+   width:25%;
+   }
+   
+   #link-3{
+   float:left;
+   width:25%;
+   }
+
+   #link-4{
+   float: left;  
+   width:25%;
+   }
+
+
+/* 
+ * Main CSS file for GL2 lab work
+ *
+ * Group member info:
+ * 1. Awsaf Hanif Ibrahim (B00898654, aw613718@dal.ca)
+ * 2. Student name (B00#, email@dal.ca)
+ * 3. Student name (B00#, email@dal.ca)
+ * 4. Student name (B00#, email@dal.ca)
+ * 5. Student name (B00#, email@dal.ca)
+ *
+ * Include a comment about sections of styling that each student has done in this file.
+ */
+
+/* General web page style - collaborative coding by students in the group */
+body {
+}
+main {
+}
+
+/* Page header styles code block 1: 
+ * coded by - Student Name (B00#, email@dal.ca) 
+ */
+
+
+/* Featured info code block 2: 
+ * coded by - Student Name (B00#, email@dal.ca) 
+ */
+
+
+/* Styling the image link section code block 3: 
+ * coded by - Student Name (B00#, email@dal.ca) 
+ */
+
+
+/* Styling the article section code block 4: 
+ * coded by - Awsaf Hanif Ibrahim(B00898654, aw613718@dal.ca) 
+ */
+
+ #main-article{
+    width: 100%;
+    border: 2px dotted brown;
+    overflow:auto;
+   
+}
+
+#left-section{
+   width:30%;
+    padding-bottom:20px;
+    margin-right:0;
+    margin-top:10px;
+    margin-bottom:10px;
+    float:left;
+    overflow:auto;
+} 
+
+#article-img{
+    width:100%;
+}
+
+
+
+ 
+ 
+#right-section{
+    width:70%;
+    
+    margin-left:0;
+    margin-top:50px;
+    margin-bottom:10px;
+   
+   overflow:auto;
+    margin-left:0;
+   
+    
+}
+
+
+
+
+#right-section p{
+    
+  
+   background-color: yellow;
+   color:black;
+  
+   
+   margin-left:0;
+   
+   font-family:sans-serif;
+    
+}
+
+  
+
+
+/* Styling the footer code block 5: 
+ * coded by - Student Name (B00#, email@dal.ca) 
+ */
+
+ 
+
+ #right-section p{
+     
+   
+    background-color: yellow;
+    color:black;
+   
+    padding-bottom:20px;
+    
+    font-family:sans-serif;
+ }
+
+
+/* Styling the footer code block 5: 
+ * coded by - Dante Paul (B00887243, dn812263@dal.ca)
+ */
+
+ #pg-footer{
+    background-color: rgb(253, 213, 103);
+    color: black;
+    
+}
+#footer-content{
+    position: relative; 
+    padding-left: 10%;
+    top: 15px;
+}
+#footer-nav{
+   position: relative;
+   padding-left: 65%;
+   left: 22.3%;
+   top: -38px;
+}
+
+#logo-footer{
+    position: relative; 
+    margin: auto 0px;
+    float: left;
+    width: 157px;
+}

@@ -1,0 +1,24 @@
+main#pg-main-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* div{
+    width: 200px;
+    height: 200px;
+}
+#div1{
+    background-color: blueviolet;
+}
+#div2{
+    background-color: burlywood;
+}
+#div3{
+    background-color: cadetblue;
+}
+#div4{
+    background-color: darkmagenta;
+}
+#div5{
+    background-color: chocolate;
+} */

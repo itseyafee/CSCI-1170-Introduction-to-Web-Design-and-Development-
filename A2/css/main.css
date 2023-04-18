@@ -1,0 +1,122 @@
+html{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*STYLING FOR HEADER PART*/
+#pg-banner{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-bottom: 5px solid steelblue;
+    text-align: center;
+}
+#primary-nav{
+    padding-bottom: 5px;
+}
+#primary-nav a{
+    display: inline-block;
+    color: steelblue;
+    padding: 5px;
+}
+#primary-nav :hover{
+    background-color: maroon;
+    color: white;
+}
+
+/*STYLING FOR ASIDE ID PART*/
+#tiger-people a{
+    padding: 5px;
+}
+ul#list li{
+    display: inline-block;
+}
+ul#list {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 5px solid steelblue;
+    margin-left: 25%;
+    margin-right:25%;
+}
+#aside{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 5px solid steelblue;
+}
+
+/*STYLING FOR COVID SUMMARY ID PART*/
+#pg-main-content{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info-box{
+    display: inline-block;
+}
+#covid-summary{
+    float: right;
+}
+/*STYLING FOR ARTICLES PART*/
+section#featured-articles{
+    margin-bottom: 10px;
+}
+
+section#featured-art1{
+    width: 24%;
+    float: left;
+    margin-right: 5px;
+    background-color: antiquewhite;
+    padding-right: 5px;
+    padding-right: 5px;
+}
+section#featured-art2{
+    width: 24%;
+    float: left;
+    margin-right: 5px;
+    background-color: antiquewhite;
+    padding-right: 5px;
+    padding-right: 5px;
+}
+section#featured-art3{
+    width: 24%;
+    float: left;
+    margin-right: 5px;
+    background-color: antiquewhite;
+    padding-right: 5px;
+    padding-right: 5px;
+}
+section#featured-art4{
+    width: 24%;
+    float: left;
+    margin-right: 5px;
+    background-color: antiquewhite;
+    padding-right: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+
+
+/*STYLING FOR FOOTER PART*/
+#pg-footer{
+    color: white;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+/*STYLING MAIN REACTOR ARTICLE*/
+#main-article h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.article-featured-img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+}
+/*STYLING HUMAN CYBORG ARTICLE*/
+#main-article h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.featured-img{
+    width: 550px;
+    height: 350px;
+    float: left;
+    padding: 10px;
+}

@@ -1,0 +1,54 @@
+<!-- Starting code for GL5 in CSCI 1170 (Winter 2022) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>This Website | Contact Us</title>
+
+	<!-- Link to the main stylesheet for this web page -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+	<header class="pg-banner">
+		<h1>This Website</h1>
+	</header>
+
+	<main class="container">
+		<section class="contact-section">
+			<h2>Contact Us</h2>
+
+			<form action="input-box" method="post" class="contact-form">
+				<!-- Implement your form here. -->
+	
+							<label id="register-1" for="firstname-input">First Name</label>
+							<input type="text" id="firstname-input" name="i-firstname">
+						
+							<label id="register-2" for="lastname-input">Last Name</label>
+							<input type="text" id="lastname-input" name="i-lastname">
+						
+						
+							<label id="register-3" for="email-input">Email</label>
+							<input type="email" id="email-input" name="i-email">
+						
+						
+							<label id="register-4" for="Message-subject">Message Subject</label>
+							<input type="text" id="Message-subject" name="i-Message-subject">
+						
+						
+							<label id="register-5" for="Message-input">Message</label>
+							<textarea id="Message-input" rows = "5" cols ="50"></textarea>
+						
+							<input id="input-button" type="button" value="Submit">
+			</form>
+		</section>
+			<script src="./js/scripts.js"></script>
+
+	</main>
+
+	<footer class="pg-footer">
+		<p>&copy; 2022. This website.</p>
+	</footer>
+</body>
+</html>
